@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Frame-Options" content="allow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Fredoka+One&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>ScreenTime</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 button"><a href="index.html"><i class='fas fa-home' style='font-size:25px;color:red'></i></a></div>
+            <div class="h1 col-md-11" onclick="setURL('file:///')">
+                MY LOCAL DISK
+            </div>
+        </div>
+        <section id="source">
+            <a href="https://www.youtube.com"><img src="images/youtube.jpeg" class="youtube"></a>
+            <a href="https://www.netflix.com/browse"><img src="images/net.png" class="net"></a>
+            <img src="images/web.jpg" class="web" onclick="setURL('https://www.google.com/search?igu=1')">
+            <img src="images/movie.jpg"
+                onclick="setURL('https://xmovies8.si/?__cf_chl_jschl_tk__=bf3571ba65f70d4cad914d4483a9816b6c84c5a6-1586779826-0-Aejf6NYPK7PvqxfxvS5qj5DiWgwRQcPFAODS1Q5l7iU5j5dof-Ais--YmXNzY76abhoa-S59Edemv55kYR35CFuF9lcdVY36tvOuFFVE3ZpqrZa_CO7Ill8ljyJVdqHSGnzz2Spt46wP22mtIZw2KF5qdfngS5U-gZFBB8CwiDEDe8xKYK9vxpG7atlq82_JqJoWz5Zj7wTIYzianhC-6Te3HYTijOl0l8qhoZ4HcTLO2ZpSKJtliVftC6hxZiR0t6wbe5n6G9w-CvQE1Hvma5w')"
+                class="movies">
+            <img src="images/music.jpeg" class="music" onclick="setURL('https://mp3juices.cc')">
+            <img src="images/torrent.jpg" class="torrent" onclick="setURL('https://1337x.to')">
+            <img src="images/webdesign.jpg" class="webdesign" onclick="setURL('https://www.w3schools.com/')">
+        </section>
+        <iframe id="iframe" src="images/hello.png" allowfullscreen></iframe>
+
+    </div>
+    <script href="js/bootstrap.min.js"></script>
+</body>
+
+</html>
